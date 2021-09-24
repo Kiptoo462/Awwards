@@ -34,7 +34,7 @@ Open the application on your browser 127.0.0.1:8000
 
 
 ## Live link
-[Awwwards](https://github.com/Kiptoo462/Awwards.git)
+[Awwwards](https://awwards021.herokuapp.com/)
 
 
 
