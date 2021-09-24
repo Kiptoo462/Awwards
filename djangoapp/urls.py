@@ -23,8 +23,8 @@ urlpatterns = [
     url('admin/', admin.site.urls),
     url('',include('awwwards.urls')),
     url('login/', auth_views.LoginView.as_view(template_name='registration/login.html'), name='login'),
-    # url(r'^logout/$', views.logout, {"next_page": '/'}),
-    # url('api-auth/', include('rest_framework.urls')),
+    url('^logout/$', auth_views.LogoutView, {"next_page": '/'}),
+    url('api-auth/', include('rest_framework.urls')),
 
 
 ]
