@@ -14,26 +14,29 @@ This is Python-Django framework users/developers to rate and also have their web
 * Browser(google chrome)
 * 
 ## Setup
-1. Clone the repo
-```sh 
-https://github.com/Kiptoo462/Awwards.git
-  ```
+- Clone the
+   ```sh 
+  https://github.com/Kiptoo462/Awwards.git
+   ```
+- Move to the folder and install requirements
 
-2. Move to the folder and install requirements
+  ``cd Awwards``
+  ``pip install -r requirements.txt``
+  Setup Configurations and Database
 
-``cd Awwards``
-``pip install -r requirements.txt``
-Setup Configurations and Database
-3. Running the application
+- Running the application
  ``python3 manage.py makemigrations Awwwards``
-4. Testing the application
-``python3 manage.py runserver``
-1.  python3 manage.py test
+
+- python3 manage.py test
 Open the application on your browser 127.0.0.1:8000
+
+
 
 
 ## Live link
 [Awwwards](https://github.com/Kiptoo462/Awwards.git)
+
+
 
 ## BDD
      The user should be able to ;
