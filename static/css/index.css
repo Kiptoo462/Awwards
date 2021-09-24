@@ -1,6 +1,6 @@
 
 .navbar{
-  background-color: #FEFDFF;
+  background-color: #131313;
   padding-top: 5px;
 }
 
@@ -40,10 +40,10 @@ border-radius: 5px 5px 0 0;
 /* The hero image */
 .hero-image {
 /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/230659/pexels-photo-230659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), ;
 
 /* Set a specific height */
-height: 500px;
+height: 50px;
 
 /* Position and center the image to scale nicely on all screens */
 background-position: center;
@@ -61,17 +61,17 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-color: white;
+color:#131313;
 
 }
 
 body { 
   padding-top: 110px;
-  background-color: #fbfbff; 
+  background-color: #d1e6d2; 
 
 }
 
 
 h1,h2,h3,h4{
-  color:#535250;
+  color:#131313;
 }
